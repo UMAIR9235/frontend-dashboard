@@ -1,0 +1,87 @@
+.button{
+    border: none;
+    outline: none;
+    background-color: #545de6;
+    color: white;
+}
+
+.basic{
+    border: none;
+    outline: none;
+    background-color: none;
+}
+
+.wFull{
+    width: 100%;
+}
+
+.hFull{
+    height: 100%;
+}
+
+.radius5{
+    border-radius: 5px;
+}
+
+.radius10{
+    border-radius: 10px;
+}
+
+.paddingVertical5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.paddingVertical10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.paddingVertical10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.paddingVertica20{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.paddingX5{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.paddingY5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ml5{
+    margin-left: 5px;
+}
+.mr5{
+    margin-right: 5px;
+}
+
+.mb5{
+    margin-bottom: 5px;
+}
+.mt5{
+    margin-top: 5px;
+}
+
+.textsm{
+    font-size: 10px;
+}
+
+.textmd{
+    font-size: 16px;
+}
+
+.font500{
+    font-weight: 500;
+}
+
+.cPointer{
+    cursor: pointer;
+}
+
+

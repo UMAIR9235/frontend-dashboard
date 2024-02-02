@@ -1,0 +1,42 @@
+.sidebar{
+    width: 25%;
+    background-color:#f7f6fc;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    
+}
+
+.sidebarCard{
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 16px;
+    background-color: red;
+}
+
+.sidebarCardOne{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardOnePercentage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progressBarOne{
+    flex: 7;
+    height: 20px;
+    border-radius: 4px;
+    background-color: #545de6;
+}
+
+.progressBarTwo{
+    flex: 3;
+    height: 20px;
+    border-radius: 4px;
+    background-color: #ffa70f;
+}

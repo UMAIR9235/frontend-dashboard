@@ -1,0 +1,44 @@
+.textxs{
+font-size:10px;
+}
+.textsm{
+font-size:12px;
+}
+.textmd{
+ font-size:14px;   
+}
+.textlg{
+ font-size: 16px;   
+}
+.textxl{
+ font-size: 18px;   
+}
+
+.fontBold{
+    font-weight: bold;
+}
+
+.font300{
+    font-weight: 300;
+}
+.font200{
+    font-weight: 200;
+}
+.font400{
+    font-weight: 400;
+}
+.font500{
+    font-weight: 500;
+}
+
+.colorLight{
+    color: #b2b4b9;
+}
+
+.colorPrimary{
+    color: #545de6;
+}
+
+.mr10{
+    margin-right: 10px;
+}
