@@ -8,24 +8,14 @@
     
 }
 
-.sidebarCard{
-    width: 100%;
-    border: 1px solid #000000;
-    border-radius: 16px;
-    background-color: red;
-}
+
 
 .sidebarCardOne{
     display: flex;
     flex-direction: column;
 }
 
-.cardOnePercentage{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 .progressBarOne{
     flex: 7;

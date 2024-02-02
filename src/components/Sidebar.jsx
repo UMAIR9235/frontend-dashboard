@@ -48,9 +48,9 @@ function Sidebar() {
             <IconButton />
           </Row>
           <Column customStyles="wFull">
-            <LatestSpendingItem />
-            <LatestSpendingItem />
-            <LatestSpendingItem />
+            <LatestSpendingItem text='Online store'/>
+            <LatestSpendingItem text='Pay the hospital'/>
+            <LatestSpendingItem text='Tickets'/>
           </Column>
           <Row customStyles='itemsCenter justifyCenter'>
           <Typography variant='span' customStyles='mr10 colorPrimary textmd'>View all</Typography>

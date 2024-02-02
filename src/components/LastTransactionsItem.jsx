@@ -9,14 +9,14 @@ import IconButton from './IconButton'
 
 
 
-function LastTransactionsItem() {
+function LastTransactionsItem({text}) {
   return (
     <Card customStyles='borderBottom paddingY'>
       <Row customStyles='itemsCenter justifyBetween'>
         <Row customStyles='itemsCenter'>
           <AvatarImage customStyles='size20 mr20'/>
           <Column>
-          <h5>Bessie Cooper</h5>
+          <h5>{text}</h5>
           <Typography variant='span' customStyles='textxs colorLight' >2 July, 2023</Typography>
           </Column>
         </Row>

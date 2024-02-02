@@ -1,11 +1,15 @@
 .navbar{
-    width: 7%;
+    width: 5%;
     background-color: #f7f6fc;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+}
+
+.navbar a{
+    
 }
 
 .userNameInitial{

@@ -11,6 +11,7 @@ import goldCoinsIcon from "../assets/goldCoinsIcon.svg";
 import ListOfItemsCard from "./ListOfItemsCard";
 import ChatComponent from "./ChatComponent";
 import Button from "./Button";
+import AnalyticsChart from "./AnalyticsChart";
 
 function Dashboard() {
   return (
@@ -67,7 +68,22 @@ function Dashboard() {
             </Column>
           </Card>
 
-          <Card customStyles="flex4 bgPrimary radius8"></Card>
+          <Card customStyles="flex4 bgPrimary radius8 padding">
+            <Column customStyles='justifyBetween wFull hFull'>
+            <Row customStyles='itemsCenter justifyBetween'>
+              <Typography variant='h2' customStyles='font500 colorWhite'>S.</Typography>
+              <Typography variant='h2' customStyles='font500 colorWhite'>Visa</Typography>
+            </Row>
+            <Row customStyles='itemsCenter justifyBetween'>
+              <Column customStyles='gap'>
+              <Typography variant='span' customStyles='colorWhite textsm font500'>****9838</Typography>
+              <Typography variant='span' customStyles='colorWhite textsm font500'>Jhon Demon</Typography>
+              
+              </Column>
+              <Typography variant='span' customStyles='colorWhite textsm font500'>08/12</Typography>
+            </Row>
+            </Column>
+          </Card>
         </Row>
       </Card>
 
@@ -103,8 +119,8 @@ function Dashboard() {
               </Row>
               <Button inheritStyles={false} customStyles='basic paddingX5 paddingY5 radius5 textsm'>+ Add an item</Button>
             </Row>
-            <Row customStyles='gap'><ListOfItemsCard checked={true} /><ListOfItemsCard checked={false}/></Row>
-            <Row customStyles='gap'><ListOfItemsCard checked={false}/><ListOfItemsCard checked={true}/></Row>
+            <Row customStyles='gap'><ListOfItemsCard checked={true}  text='Macbook'/><ListOfItemsCard checked={false} text='Bicycle'/></Row>
+            <Row customStyles='gap'><ListOfItemsCard checked={false} text='Motorcycle'/><ListOfItemsCard checked={true} text='Iphone 14 pro max'/></Row>
           </Column>
           
           <Column customStyles="flex1">
@@ -131,12 +147,19 @@ function Dashboard() {
                   </Row>
                 </Row>
               </Card>
-              <LastTransactionsItem />
-              <LastTransactionsItem />
-              <LastTransactionsItem />
+              <LastTransactionsItem text='Bessie Cooper'/>
+              <LastTransactionsItem text='Guy Hawkins'/>
+              <LastTransactionsItem text='Floyd Miles'/>
             </Column>
           </Card>
-          <Card customStyles="flex3 radius8 bgWhite padding"></Card>
+          <Card customStyles="flex3 radius8 bgWhite padding">
+            <Column customStyles='itemsCenter'>
+            <Row></Row>
+            <AnalyticsChart />
+            <Row></Row>
+            </Column>
+            
+          </Card>
         </Row>
       </Card>
     </div>

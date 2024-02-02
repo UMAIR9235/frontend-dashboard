@@ -10,7 +10,7 @@ function ListOfItemsCard({checked, text}) {
     <div className={classes.itemsCard}>
         <div className={classes.itemName}>
             <img src={checked ? checkedIcon : uncheckedIcon} alt="checkbox-icon" className={classes.checkboxIcon}/>
-            <span className={classes.itemText}>Macbook</span>
+            <span className={classes.itemText}>{text}</span>
         </div>
         <IconButton />
     </div>

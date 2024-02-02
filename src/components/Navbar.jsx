@@ -9,15 +9,15 @@ function Navbar() {
       {messageIcon}
     </div>
     <div className={classes.navicons}>
-      {homeIcon}
-      {bellIcon}
-      {clockIcon}
-      {userGroupIcon}
-      {walletIcon}
-      {settingsIcon}
+      <a href="#">{homeIcon}</a>
+      <a href="#">{bellIcon}</a>
+      <a href="#">{clockIcon}</a>
+      <a href="#">{userGroupIcon}</a>
+      <a href="#">{walletIcon}</a>
+      <a href="#">{settingsIcon}</a>
     </div>
     <div className={classes.logout}>
-      {logoutIcon}
+      <a href="#">{logoutIcon}</a>
     </div>
   </div>;
 }
